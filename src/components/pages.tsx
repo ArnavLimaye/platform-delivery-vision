@@ -339,7 +339,7 @@ function PageShell({
   accent?: string
 }) {
   return (
-    <div className="max-w-4xl mx-auto px-4 md:px-8 py-6 md:py-8 animate-fadeIn" style={accent ? { ['--accent' as string]: accent } : undefined}>
+    <div className="max-w-6xl mx-auto px-4 md:px-8 py-6 md:py-8 animate-fadeIn" style={accent ? { ['--accent' as string]: accent } : undefined}>
       {children}
     </div>
   )
